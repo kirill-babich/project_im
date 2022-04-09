@@ -1,0 +1,40 @@
+@import './main/reset.scss';
+@import './components/header.scss';
+@import './components/events.scss';
+@import './components/contact.scss';
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color:#ffffff;
+    margin:520px 0 50px;
+}
+html{
+    font-family: 'Gilroy', 'san-serif';
+    font-size: 14px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.background {
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 950px;
+}
+.background::before{
+    content:'';
+    background:rgba(51, 51, 51, 0.77);
+    position: absolute;
+    height: 950px;
+    width:100%;
+
+}
+.container{
+    max-width:1110px;
+    margin:0 auto;
+    position: relative;
+}

@@ -1,0 +1,106 @@
+
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.header-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding:20px;
+    align-items: center;
+}
+.header-top__start{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header-top__ico {
+    cursor: pointer;
+}
+.header-top__content{
+    margin:0 25px 0;
+}
+.header-top__end,.header-elements__glass,.header-elements,.header-elements__human,.header-elements__heart {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    line-height: 21px;
+    font-weight: 400;
+    font-size: 14px;
+    color:#ffffff;
+}
+.header-elements__glass img{
+    margin:0 13px 0;
+}
+.header-elements__human {
+    margin:0 25px 0;
+}
+.header-elements__search{
+    color:#ffffff;
+    &::placeholder{
+        color:#ffffff;
+    }
+}
+.header-top__end input{
+    max-width: 50px;
+    max-height: 25px;
+    color: white;
+    border:none;
+    background: none;
+}
+.header-elements{
+    margin:0 40px 0;
+}
+.header-top__end button{
+    border:none;
+    background-color: rgba(0,0,0,0);
+}
+.origin{
+    background-color: #333333;
+    border:2px solid #ffffff;
+    color:#ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    position: relative;
+    padding:16px 65px 16px;
+    left:50%;
+    transform: translate(-50%, 0);
+}
+.header-bottom{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin:80px 0 0;
+    border-top:1px solid #FFFFFF;
+    padding:30px 0 0;
+    position: relative;
+    z-index: 1;
+ }
+ .header-bottom img{
+     margin:0 7.5px 0;
+     border-right: 1px solid #FFFFFF;
+ }
+ .header-bottom img:last-child{
+     border:none;
+ }
+
+@media(min-width:320px) and (max-width:762.7){
+    .header-top{
+        justify-content: center;
+    }
+    .header-top__start{
+        justify-content: center;
+    }
+    .header-top__end{
+        justify-content: center;
+    }
+}
