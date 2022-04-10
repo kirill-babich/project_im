@@ -2,6 +2,8 @@
 @import './components/header.scss';
 @import './components/events.scss';
 @import './components/contact.scss';
+@import './components/blog.scss';
+@import './components/social.scss';
 h1{
     font-weight: 700;
     font-size: 40px;
@@ -35,6 +37,7 @@ html{
 }
 .container{
     max-width:1110px;
-    margin:0 auto;
+    left:50%;
+    transform: translate(-50%, 0);
     position: relative;
 }

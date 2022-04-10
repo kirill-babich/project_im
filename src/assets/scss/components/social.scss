@@ -1,0 +1,30 @@
+.social__title{
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+}
+.social__text{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin:15px 0 60px;
+}
+.social-grid{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+}
+.social-grid__first{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    position: relative;
+    &::before{
+        content: '';
+        background: linear-gradient(0deg, rgba(51, 51, 51, 0.4), rgba(51, 51, 51, 0.4));
+        height: 300px;
+        width: 555px;
+        position: absolute;
+    }
+}
+.social__play{
+    position: absolute;
+}

@@ -1,8 +1,35 @@
 .background-black{
     background-image: url(../imgs/background-black.jpg);
+    background-size: cover;
+    background-position: center;
 }
 .background-black__content {
-    max-width: 730px;
+    max-width: 700px;
+    position: relative;
+    margin:0 auto;
     text-align: center;
     color:#FFF;
+}
+.background-black__text{
+    padding: 100px 0 0;
+    font-weight: 400;
+    font-size: 21px;
+}
+.background-black__title{
+    font-weight: 700;
+    font-size: 30px;
+    margin:15px 0 45px;
+}
+.background-black__bottom{
+    font-weight: 400;
+    font-size: 18px;
+    margin:0 0 60px;
+    font-style:inherit;
+}
+.background-black__button{
+    border:none;
+    padding:15px 50px 15px;
+    font-weight: 600;
+    font-size: 18px;
+    margin:0 0 100px;
 }
