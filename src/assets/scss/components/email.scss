@@ -1,0 +1,70 @@
+.email__background{
+    background-image: url(../imgs/background-black.jpg);
+    background-size: cover;
+    background-position: center;
+    margin:150px 0 80px;
+}
+.email__title{
+    padding:100px 0 0;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    color:#fff;
+}
+.email__text{
+    text-align: center;
+    color:#fff;
+    font-weight: 700;
+    font-size: 30px;
+    margin:15px 0 60px;
+}
+.email__box{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:0 0 120px;
+}
+.email__box-text{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.email__box-item{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0 0 15px;
+    
+}
+.email__box-item img:hover{
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+.email__box-item a{
+    padding: 0 20px 0;
+}
+.email__border{
+    padding:14px;
+    border:1px solid #FFFFFF;
+}
+form{
+    background-color: #fff;
+    padding: 15px;
+}
+.email__box-button{
+    border: none;
+    background-color: #333333;
+    color:#fff;
+    padding:15px 37px 15px;
+    font-weight: 500;
+    font-size: 14px;
+}
+input{
+    padding:14px 0 14px;
+    border: 1px solid #D6D6D6;
+}

@@ -4,6 +4,8 @@
 @import './components/contact.scss';
 @import './components/blog.scss';
 @import './components/social.scss';
+@import './components/email.scss';
+@import './components/footer.scss';
 h1{
     font-weight: 700;
     font-size: 40px;
@@ -11,6 +13,11 @@ h1{
     color:#ffffff;
     margin:520px 0 50px;
 }
+button:hover{
+    background-color: #202020;
+    color:#ffffff;
+}
+
 html{
     font-family: 'Gilroy', 'san-serif';
     font-size: 14px;
