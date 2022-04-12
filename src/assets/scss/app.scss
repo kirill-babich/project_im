@@ -48,3 +48,14 @@ html{
     transform: translate(-50%, 0);
     position: relative;
 }
+@media(min-width:320px) and (max-width:618.7px){
+    .background {
+        height: 720px;
+    }
+    .background::before{
+        height: 720px;
+    }
+}
+@media(min-width:619px) and (max-width:1020px){
+
+}
