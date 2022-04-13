@@ -30,10 +30,11 @@
 }
 @media(min-width:320px) and (max-width:869.7px){
     .social-grid{
-        grid-template-columns:1fr;
+        grid-template-columns:49% 49%;
     }
     .social-grid__item img{
-        max-width: 100%;
+        width: 150px;
+        height: 150px;
     }
     .social-grid__item{
         margin-left: auto;
@@ -52,8 +53,5 @@
             }
         
 }
-
-}
-@media(min-width:320px) and (max-width:869.7px){
 
 }

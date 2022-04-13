@@ -97,19 +97,19 @@ h2{
         font-size: 80%;
     }
     .events-block__range{
-        grid-template-columns:  1fr;
-        grid-template-rows:  1fr;
+        grid-template-columns:  1fr 1fr;
+        grid-template-rows:  1fr 1fr;
         gap:15px;
     }
     .events-block__element{
-        width: 320px;
-        height: 280px;
+        width: 150px;
+        height: 150px;
         margin-left: auto;
         margin-right: auto;
     }
     .events-block__element img{
-        width: 320px;
-        height: 280px;
+        width: 150px;
+        height: 150px;
     }
 }
 @media(min-width:619px) and (max-width:1024px){
