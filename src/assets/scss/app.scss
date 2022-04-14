@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
 @import './main/reset.scss';
 @import './components/header.scss';
 @import './components/events.scss';
@@ -6,6 +11,7 @@
 @import './components/social.scss';
 @import './components/email.scss';
 @import './components/footer.scss';
+
 h1{
     font-weight: 700;
     font-size: 40px;
@@ -21,11 +27,6 @@ button:hover{
 html{
     font-family: 'Gilroy', 'san-serif';
     font-size: 14px;
-}
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding:0;
 }
 
 .background {
@@ -50,12 +51,13 @@ html{
 }
 @media(min-width:320px) and (max-width:618.7px){
     .background {
-        height: 720px;
+        height: 670px;
     }
     .background::before{
-        height: 720px;
+        height: 670px;
     }
-}
-@media(min-width:619px) and (max-width:1020px){
-
+    .header-top__start,.header-top__end{
+        display: none;
+    }
+    
 }

@@ -45,7 +45,7 @@
     margin:0 20px 0;
 }
 .footer-flex__content img{
-    margin:0 0 15px;
+    margin:0 5px 15px;
     &:hover{
         cursor: pointer;
     }
@@ -62,4 +62,18 @@
     border-top:  1px solid #333333;
     font-weight: 400;
     font-size: 14px;
+}
+@media (max-width:499.7px){
+    .footer-flex__container{
+        max-width: 160px;
+    }
+    .footer-flex__title{
+        font-size: 14px;
+    }
+    .footer-flex__content img{
+        max-width: 15px;
+    }
+    .footer-flex{
+        margin:0 0 20px;
+    }
 }

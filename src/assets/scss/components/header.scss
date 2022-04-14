@@ -109,6 +109,13 @@ a{
     .header-top__ico{
         margin:30px 0 20px;
     }
+    .header-bottom img{
+        width: 100px;
+        &:last-of-type{
+        border-right: 1px solid #fff;
+    }
+    }
+
 }
 @media(min-width:619px) and (max-width:869.7px){
     .header-top{
