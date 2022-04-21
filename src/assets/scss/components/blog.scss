@@ -13,9 +13,8 @@
 .blog__grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0;
     gap:30px;
-    margin:0 0 450px;
+    margin:0 0 40px;
 }
 .blog__img{
     position: relative;
@@ -28,8 +27,7 @@
         left:0;
         bottom: 0;
         right: 0;
-        width: 350px;
-        height: 370px;
+        max-width: 100%;
         background: linear-gradient(180deg, rgba(180, 180, 180, 0) 0%, #333333 100%);
     }
 }
